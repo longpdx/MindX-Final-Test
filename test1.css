@@ -1,0 +1,33 @@
+.test1 {
+  display: grid;
+  max-width: 1600px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.test1 h1 {
+  text-align: center;
+}
+.test1 button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.test1 input[type="number"] {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+#result1 {
+  margin-top: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./test1.css" />
+    <link rel="stylesheet" href="./test2.css" />
+    <link rel="stylesheet" href="./mediaQuery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-box">
+      <div class="top-bar">
+        <h1>Users</h1>
+      </div>
+
+      <div class="menu-bar">
+        <div class="search-container">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search users">
+        </div>
+
+        <div class="menu">
+          <ul class="nav-menu">
+            <li>
+              <a href="" class="nav-link">Reputation</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">New users</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">Voters</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">Editors</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">Moderators</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="profiles">
+
+        <div class="profile-container">
+          <div class="left-container">
+            <img src="./profile-photos/1.jpg" alt="Avatar">
+          </div>
+          <div class="right-container">
+            <h1>Lelah Nichols</h1>
+            <p>Troy, MI</p>
+            <div class="tags">
+              <span class="tag">clothes</span>
+              <span class="tag">sterm</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="left-container">
+            <img src="./profile-photos/2.jpg" alt="Avatar">
+          </div>
+          <div class="right-container">
+            <h1>Jesus Weiss</h1>
+            <p>Fort Worth, TX</p>
+            <div class="tags">
+              <span class="tag">headset</span>
+              <span class="tag">gadget</span>
+              <span class="tag">speed</span>
+              <span class="tag">winter</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="left-container">
+            <img src="./profile-photos/3.jpg" alt="Avatar">
+          </div>
+          <div class="right-container">
+            <h1>Annie Rice</h1>
+            <p>Austin, TX</p>
+            <div class="tags">
+              <span class="tag">road</span>
+              <span class="tag">mountain</span>
+              <span class="tag">trip</span>
+              <span class="tag">earth</span>
+              <span class="tag">nature</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="left-container">
+            <img src="./profile-photos/4.jpg" alt="Avatar">
+          </div>
+          <div class="right-container">
+            <h1>Robert Brower</h1>
+            <p>Cincinnati, OH</p>
+            <div class="tags">
+              <span class="tag">Maintenance</span>
+              <span class="tag">gears</span>
+              <span class="tag">frames</span>
+              <span class="tag">repair</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="left-container">
+            <img src="./profile-photos/5.jpg" alt="Avatar">
+          </div>
+          <div class="right-container">
+            <h1>Amy Campbell</h1>
+            <p>Warrior, Al</p>
+            <div class="tags">
+              <span class="tag">music</span>
+              <span class="tag">disks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-container">
+          <div class="left-container">
+            <img src="./profile-photos/6.jpg" alt="Avatar">
+          </div>
+          <div class="right-container">
+            <h1>Anthony S. Morin</h1>
+            <p>Lyndhurst, NJ</p>
+            <div class="tags">
+              <span class="tag">vintage</span>
+              <span class="tag">electric</span>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="test1">
+      <h1>Test 1 - Tính tổng số nguyên tố</h1>
+      <div>
+        <label for="a">Nhập số a:</label>
+        <input type="number" id="a" name="a" min="0">
+      </div>
+      <div>
+        <label for="b">Nhập số b:</label>
+        <input type="number" id="b" name="b" min="0">
+      </div>
+
+      <button onclick="calculate()">Calculate</button>
+      <div id="result1"></div>
+    </div>
+
+    <div class="test2">
+      <h1>Test 2 - Vẽ tam giác</h1>
+      <div>
+		    <label for="num">Nhập một số nguyên từ 1 đến 10:</label>
+        <input type="number" id="num" name="num" min="1" max="10">
+      </div>
+
+      <button onclick="numberOneTriangle()">Draw Triangle</button>
+	    <div id="result2"></div>
+    </div>
+
+    <script src="./test1.js"></script>
+    <script src="./test2.js"></script>
+    
+  </body>
+</html>
